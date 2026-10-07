@@ -1,0 +1,30 @@
+# Five-condition location-standardized capture sensitivity
+
+## Scope fixed before new fits
+Author requests all eligible scanner trials, five conditions (Absent; Biased Frequent BF; Biased Rare BR; Unbiased Frequent UF; Unbiased Rare UR), corrected Default91/common399 connectivity and group moderation. Existing source/model/manuscript packages and existing correction families remain unchanged. All new analyses are exploratory sensitivities.
+
+## Inputs and coding
+Project root `${DMN_PROJECT_ROOT}`; review root `manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/`.
+- Correct scanner source `revision-1/attached-v3-correct-rt/brain_behavior/correct_rt_trials_n33.csv`, SHA256 fac39301cb3b828f925937e080213bc5ed39fcaa03cbe0e6c558cf2ea18b34c6.
+- Resolved neural source `resolved_reanalysis/extraction_common_coverage/participant_scores_resolved.csv`, SHA256 cc3cddf8377ff9aefba18e8781d2512151e335f280d232c5b23d791266e6feef; use ONLY dmn_conn_primary and recompute X. Never reuse obsolete source X/dmn_conn.
+- N33 SS16/DS17, 10,995 eligible correct trials; RT200–3000ms inclusive, no additional first-trial exclusion. There are no retained RTs exactly200ms, so current bound inputs are equivalent to the preceding strict gate.
+- D=0SS/1DS; X=(FC−group mean FC)/global participant-level SD of centered FC, computed once before trial joins. RT100=RT/100; run2=0/1. BF/BR/UF/UR are numeric0/1 indicators, absent all0. Condition factor levels Absent,BF,BR,UF,UR.
+- BF SS=orientation and DS=color; UF SS=color and DS=orientation. On unbiased trials, Frequent/Rare refer to the same assigned spatial regions, not evidence of a high-frequency spatial contingency in that dimension. Retain recorded region labels; no inferred location recoding.
+- Count inventory already checked without new association inspection: SS Absent953 BF2632 BR559 UF596 UR596; DS Absent1013 BF2897 BR633 UF566 UR550. Check all five conditions in each participant and each run and preserve original keys.
+
+## Trial-model specification and numerical policy
+Fit REML:
+`RT100 ~ condition*X*D + condition:run2 + (1+BF+BR+UF+UR|subject)`.
+This is saturated condition×FC×group fixed coupling, with run shifts allowed separately by condition. No downsampling, inverse-count trial weighting or post-hoc significance selection. Equal region weighting is in the marginal contrast, not in the likelihood.
+Run canonical bobyqa, independent nloptwrap, and bobyqa restart from nloptwrap theta; save every object and inspect raw/scaled gradients, messages, Hessian, theta, rePCA and singularity at1e-4/1e-5. If a reproducible non-singular message-free fit exists, independently repeat alternative+restart. Same-formula equality tolerance logLik1e-5, fixed coefficients1e-4RT100, theta1e-3.
+If all full-correlated fits remain on the same covariance boundary, preserve and report them. Then fit the predeclared changed-covariance sensitivity `(1+BF+BR+UF+UR||subject)` using these explicit numeric indicators; verify getME(cnms)/theta shows independent scalar slopes. Save bobyqa and nloptwrap/restart. If scalar variances remain at boundary, deterministically remove ONLY scalar terms with fitted SD/response-scale parameter <=1e-4 and refit; retain intercept unless also unsupported. Label any adopted reduced/independent structure clearly as a covariance sensitivity, never as the unchanged full model. Fixed specification and exact trial frame must remain unchanged. Do not select structure based on p values. If no defensible fit survives, report the blocker and do not manufacture inference. A fully fitted correlated-boundary model is still a result; its estimates must remain in diagnostics and a full-versus-selected contrast comparison.
+
+## Locked 50/50 spatial estimands
+For group g, K_B,g=.5*(FC slope BF vs absent + FC slope BR vs absent); K_U,g=.5*(FC slope UF vs absent + FC slope UR vs absent), in ms/globalFC SD. K_diff,g=K_B,g−K_U,g. Pooled weighting is SS16/33 and DS17/33. Absent-baseline connectivity slopes cancel only in the direct difference; report capture slopes as present-minus-absent, not total RT slopes.
+Define one new Holm-9 panel: pooled B50,U50,B50−U50; SS B50,U50,B50−U50; DS B50,U50,B50−U50. Report raw and Holm9 p and pointwise95% Satterthwaite CIs.
+Define a separate new Holm-3 group-moderation panel: DS−SS in B50, DS−SS in U50, DS−SS in (B50−U50). The third is the direct answer to whether group moderates bias-specific coupling under the equal region mixture. Save explicit contrast vectors, beta/vcov, all fixed/random output, exact analytic rows, coding/hash checks, selected RDS and independent verifier. Do not claim a group difference from separate significance.
+These weights standardize spatial mixture, not experimental dimension exposure, score reliability or trial-count information. Do not reinterpret as causal separation.
+
+## Participant cross-check and existing learning reliability
+Independent companion reconstructs participant B50=.5*(meanBF+meanBR)−meanAbsent; U50=.5*(meanUF+meanUR)−meanAbsent. No shared-baseline partial correlation is requested; these summaries are descriptive cross-checks of a different, standardized correlation estimand. Compute pooled group-adjusted Pearson r(B50),r(U50), plus SS and DS pairs (six new Holm6 tests). Compare overlapping r(B50)−r(U50) pooled and within groups (new Holm3), with 10,000 paired group-stratified percentile draws, retaining analytical-vs-bootstrap disagreement. Effective N32/df29 for group-adjusted approximate Williams; N16/df13SS and N17/df14DS. Preserve all pointwise CIs and raw p.
+Rerun the existing `spatial_learning_dmn_v1/participant_analysis/verify_participant_analysis.py` and verify six biased-dimension Rare-minus-Frequent learning reliability rows (odd/even and run1/run2 × pooled adjusted/SS/DS). Copy bound summaries into companion output and explicitly include both schemes with 95% percentile CIs, raw/Holm6 p. Do NOT recompute a different reliability family or silently equate unadjusted pooling with group adjustment. Existing S13 in v8 already contains these; v9 will make the six estimates explicit in a dedicated main Results subsection.

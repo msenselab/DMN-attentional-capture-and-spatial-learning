@@ -1,0 +1,1289 @@
+{
+  "scope": "Code-only selected current producers, current reported sensitivities, required source helpers and text specifications; no empirical data or original Git history.",
+  "files": [
+    {
+      "path": "code_source/_archive/manuscript_scope_20260922/review_needed_code/code/mri-code/GenerateTrialSequences.m",
+      "study_relative_path": "_archive/manuscript_scope_20260922/review_needed_code/code/mri-code/GenerateTrialSequences.m",
+      "source_sha256": "ac8c6b32fdae69198d97f8e6d166e6fe80c4ebaeddae4ec7d8e5a39b86f51301",
+      "release_sha256": "ac8c6b32fdae69198d97f8e6d166e6fe80c4ebaeddae4ec7d8e5a39b86f51301",
+      "roles": [
+        "Required source/readback dependency of manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/run_reanalysis.py"
+      ],
+      "statuses": [
+        "helper_or_source_provenance_only"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/_archive/manuscript_scope_20260922/review_needed_code/code/mri-code/popSearch.m",
+      "study_relative_path": "_archive/manuscript_scope_20260922/review_needed_code/code/mri-code/popSearch.m",
+      "source_sha256": "5fde7d8c092d316ee99ae0489dce86624e4579fa6c7d55c73bd01b341b2e4633",
+      "release_sha256": "5fde7d8c092d316ee99ae0489dce86624e4579fa6c7d55c73bd01b341b2e4633",
+      "roles": [
+        "Required source/readback dependency of manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/participant_analysis/run_participant_analysis.py"
+      ],
+      "statuses": [
+        "helper_or_source_provenance_only"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/_archive/manuscript_scope_20260922/review_needed_code/code/mri-code/session1_R3.m",
+      "study_relative_path": "_archive/manuscript_scope_20260922/review_needed_code/code/mri-code/session1_R3.m",
+      "source_sha256": "f70dc237b48d3b1f805999c9c811961cab012424240d89b287a4a64e96a632a2",
+      "release_sha256": "f70dc237b48d3b1f805999c9c811961cab012424240d89b287a4a64e96a632a2",
+      "roles": [
+        "Required source/readback dependency of manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/participant_analysis/run_participant_analysis.py"
+      ],
+      "statuses": [
+        "helper_or_source_provenance_only"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/_archive/manuscript_scope_20260922/review_needed_code/code/mri-code/session2_R4.m",
+      "study_relative_path": "_archive/manuscript_scope_20260922/review_needed_code/code/mri-code/session2_R4.m",
+      "source_sha256": "5e93840824b8a207ec25feac821d82745aac3698e3b033a69675b6de28f3c434",
+      "release_sha256": "5e93840824b8a207ec25feac821d82745aac3698e3b033a69675b6de28f3c434",
+      "roles": [
+        "Required source/readback dependency of manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/participant_analysis/run_participant_analysis.py"
+      ],
+      "statuses": [
+        "helper_or_source_provenance_only"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/code/shared/behavioral_data/current/01_rt_interference_spatial_learning_n35.py",
+      "study_relative_path": "code/shared/behavioral_data/current/01_rt_interference_spatial_learning_n35.py",
+      "source_sha256": "4a5c1f43f81e7c10bbd160d737d9fc88019c568205416b9d216cdb7eb9a335f6",
+      "release_sha256": "525949e643217f9811e624cc9f6dd364f7d3568166573d47b31a528ebd70790a",
+      "roles": [
+        "raw_behavioral_event_and_training_derivation"
+      ],
+      "statuses": [
+        "active_prerequisite_code_for_private_inputs_not_a_public_data_artifact"
+      ],
+      "portability_changes": [
+        {
+          "kind": "repair_preexisting_moved_script_root",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "path": "code_source/code/shared/behavioral_data/current/04_figure2v_unified_n35.py",
+      "study_relative_path": "code/shared/behavioral_data/current/04_figure2v_unified_n35.py",
+      "source_sha256": "06077416708371f694fcb2f19363e1022d8685132049cde042e83446f7fb5676",
+      "release_sha256": "06077416708371f694fcb2f19363e1022d8685132049cde042e83446f7fb5676",
+      "roles": [
+        "Required source/readback dependency of manuscript/paper2_dmn-connectivity/revision-1/behavioral-audit/run_behavioral_audit.py"
+      ],
+      "statuses": [
+        "helper_or_source_provenance_only"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/code/shared/behavioral_data/current/provenance/lmm_behavioral_original.py",
+      "study_relative_path": "code/shared/behavioral_data/current/provenance/lmm_behavioral_original.py",
+      "source_sha256": "c7d3fbe448bedb54e2951948cda44ad2c3c1b1204cea4fb5a0eaf44e44267784",
+      "release_sha256": "9a31e2bec190b39d185ed9fc2794d2adf6a49b218ee73e651f4e030efc88f1f1",
+      "roles": [
+        "required_source_helper"
+      ],
+      "statuses": [
+        "helper_not_standalone_current_analysis"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "path": "code_source/code/shared/preprocessing/merge_accuracy_from_mat.py",
+      "study_relative_path": "code/shared/preprocessing/merge_accuracy_from_mat.py",
+      "source_sha256": "b4b4ccec17b40c83848ed16ed6c5956752f38edce01ec0b99c2f75a36a246de5",
+      "release_sha256": "cb7c018ab27ac522ad1c1e158320287ea96d47669137c7d8767f81d374e980e7",
+      "roles": [
+        "raw_behavioral_event_and_training_derivation"
+      ],
+      "statuses": [
+        "active_prerequisite_code_for_private_inputs_not_a_public_data_artifact"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/coherent_revision/regenerate_figure2.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/coherent_revision/regenerate_figure2.py",
+      "source_sha256": "5d82d45b3391409e396c75401b3c97d17b52dbbd881b58ed135f1ba0d4dd1c16",
+      "release_sha256": "5d82d45b3391409e396c75401b3c97d17b52dbbd881b58ed135f1ba0d4dd1c16",
+      "roles": [
+        "Figure 2 approved baseline plotting implementation"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/author_update_v6_work/reliability_audit/verify_current_run_reliability.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/author_update_v6_work/reliability_audit/verify_current_run_reliability.py",
+      "source_sha256": "13874d753c6fd1f2bf7890b97ef1a306acd23a24f8f73ca4b443e6ea1e12dcf0",
+      "release_sha256": "80a4b263bdff560657c48470f631724c918ead1209cae8601039346cbf9aa3c3",
+      "roles": [
+        "reliability_and_current_association_diagnostics"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_diagnostics_read_only"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 21
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/author_update_v6_work/reliability_audit/verify_reliability_and_ds_association.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/author_update_v6_work/reliability_audit/verify_reliability_and_ds_association.py",
+      "source_sha256": "f807f83c62b9d1f0cca39d115f8d2f0f5f3e82ef1854b265a1033ce5fb191bd2",
+      "release_sha256": "05450f6953b3638d84e9c2fe39aee7e9ab9e1868c1910230a61fb621d2808ca6",
+      "roles": [
+        "reliability_and_current_association_diagnostics"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_diagnostics_read_only"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 20
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/count_timing_evidence/executed_frozen_draw_algorithm.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/count_timing_evidence/executed_frozen_draw_algorithm.py",
+      "source_sha256": "18f5247d28cf57db2f4ff89e34d8d6245bc155dfc6edc73428a73cf499377305",
+      "release_sha256": "0aa773ffc7fc0e80132d8807eead363d2dc5c2bcfd2194126531b15dbe68daee",
+      "roles": [
+        "Frozen count-matched RNG checkpoint producer; legacy neural/figure outputs are NOT current inference"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 11
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/figure4_six_panels_20261007/build_figure4.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/figure4_six_panels_20261007/build_figure4.py",
+      "source_sha256": "0873a384a68b61a1dd773d32fc785e837d10d438bfc12fd63ee0a43d3a268e1c",
+      "release_sha256": "0873a384a68b61a1dd773d32fc785e837d10d438bfc12fd63ee0a43d3a268e1c",
+      "roles": [
+        "Figure 4 generator"
+      ],
+      "statuses": [
+        "figure_generator"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/figureS1_pooled_learning_20261007/build_figureS1.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/figureS1_pooled_learning_20261007/build_figureS1.py",
+      "source_sha256": "fbdbe79f2630a41c6a3c4f1aff333b516b3022db4b1ab89c76c7694e11e4dc13",
+      "release_sha256": "fbdbe79f2630a41c6a3c4f1aff333b516b3022db4b1ab89c76c7694e11e4dc13",
+      "roles": [
+        "Figure S3 generator"
+      ],
+      "statuses": [
+        "figure_generator"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/figure_network_integration_20261007/render_integrated_figures.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/figure_network_integration_20261007/render_integrated_figures.py",
+      "source_sha256": "b5695945933a986672c5e1cad13df5560154df7d1a10686dfa242fa59a7b54a9",
+      "release_sha256": "b5695945933a986672c5e1cad13df5560154df7d1a10686dfa242fa59a7b54a9",
+      "roles": [
+        "Figure S2 generator"
+      ],
+      "statuses": [
+        "figure_generator"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_pooled_groups_v1/analysis/run_pooled_groups_network_screen.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_pooled_groups_v1/analysis/run_pooled_groups_network_screen.py",
+      "source_sha256": "867f82c1bb445d5ebfe7f68296e190af5f0c601274f694d52dafb5002a8fa388",
+      "release_sha256": "63209813eb814eebe19918e173d021d30567df7cec4dc4be7ad42c3b14e02d72",
+      "roles": [
+        "learning_network_pair_association_and_signed_counts"
+      ],
+      "statuses": [
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 21
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_pooled_groups_v1/analysis/verify_pooled_groups_network_screen.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_pooled_groups_v1/analysis/verify_pooled_groups_network_screen.py",
+      "source_sha256": "bbb3ab7d8115c8cb4cbd993ddfb9991e9ae1344800d9727492b213e02976d048",
+      "release_sha256": "768e937888e6f810386917acaa4c693fcec0e9dedc9cf41d4cfa11de39ce5b20",
+      "roles": [
+        "learning_network_pair_association_and_signed_counts"
+      ],
+      "statuses": [
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 16
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/ANALYSIS_SPEC.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/ANALYSIS_SPEC.md",
+      "source_sha256": "02d98702b98b5d15b57fd55ed35be6ecfde7748c939450e1515bb44f38105906",
+      "release_sha256": "02d98702b98b5d15b57fd55ed35be6ecfde7748c939450e1515bb44f38105906",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/dmn_supportive_prediction_v1/ANALYSIS_SPEC.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/dmn_supportive_prediction_v1/ANALYSIS_SPEC.md",
+      "source_sha256": "403aa4bf9b5a177743cd43eede219912a47fd16d481e3ae19804abd52d23758c",
+      "release_sha256": "403aa4bf9b5a177743cd43eede219912a47fd16d481e3ae19804abd52d23758c",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/dmn_supportive_prediction_v1/run_supportive_cpm.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/dmn_supportive_prediction_v1/run_supportive_cpm.py",
+      "source_sha256": "76e9d10db0a7101fca32eb8ccd311f686e274255a60cf93ffe6de2ee21182381",
+      "release_sha256": "76e9d10db0a7101fca32eb8ccd311f686e274255a60cf93ffe6de2ee21182381",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions",
+        "learning_network_specificity_extensions"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory",
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/network_specificity_v1/ANALYSIS_SPEC.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/network_specificity_v1/ANALYSIS_SPEC.md",
+      "source_sha256": "721c6e7d5aaa0d0c10da8151925c49409d3fd29f0e4c28088c6e14af3fcbe420",
+      "release_sha256": "721c6e7d5aaa0d0c10da8151925c49409d3fd29f0e4c28088c6e14af3fcbe420",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/network_specificity_v1/run_specificity.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/network_specificity_v1/run_specificity.py",
+      "source_sha256": "849e68f9559acec6107dba04c8c75cce983e7c6e90ee07511286736c693aac42",
+      "release_sha256": "849e68f9559acec6107dba04c8c75cce983e7c6e90ee07511286736c693aac42",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions",
+        "learning_network_specificity_extensions"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory",
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/network_specificity_v1/verify_independent.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/network_specificity_v1/verify_independent.py",
+      "source_sha256": "fef873188677cc94a853d45cf2f04de3c1e80901c9ce22edb572a81da0da262a",
+      "release_sha256": "fef873188677cc94a853d45cf2f04de3c1e80901c9ce22edb572a81da0da262a",
+      "roles": [
+        "learning_network_specificity_extensions"
+      ],
+      "statuses": [
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/rare_region_coupling_check_v1/ANALYSIS_SPEC.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/rare_region_coupling_check_v1/ANALYSIS_SPEC.md",
+      "source_sha256": "6ae4db9e6d17dbaec88ecb1d55e2bbd286ae6bf5e83a5684642790aed342171b",
+      "release_sha256": "6ae4db9e6d17dbaec88ecb1d55e2bbd286ae6bf5e83a5684642790aed342171b",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/rare_region_coupling_check_v1/run_rare_contrasts.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/rare_region_coupling_check_v1/run_rare_contrasts.R",
+      "source_sha256": "7b3ad133cf1edeb23ac96c8074f4b7021978a9c3ca71c58b3307446382f7864e",
+      "release_sha256": "7b3ad133cf1edeb23ac96c8074f4b7021978a9c3ca71c58b3307446382f7864e",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/run_learning_rare_frequent_cpm.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/run_learning_rare_frequent_cpm.py",
+      "source_sha256": "5f8d88fd2f1aa050b98ff796b61dcaf24842f9909ed798fd59daaa23247abbb9",
+      "release_sha256": "1a65da6ddbf4f14681c5c53a6d3d7af2ec1a1bc0e42319a34aa9de3b4e77bf6c",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions",
+        "learning_nested_cpm_defaultabc"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory",
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 23
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/verify_learning_cpm_independent.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/verify_learning_cpm_independent.py",
+      "source_sha256": "5617d786711882907a06a9a90e97ae7b9a78b101ccb25047652daa0696f1cf80",
+      "release_sha256": "5617d786711882907a06a9a90e97ae7b9a78b101ccb25047652daa0696f1cf80",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions",
+        "required_current_producer_or_verifier"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory",
+        "dependency"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/verify_learning_rare_frequent_cpm.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/verify_learning_rare_frequent_cpm.py",
+      "source_sha256": "1bc6c0619919be7e45ad7d595e3df739c9006427759f5ca3541acb0a99d458f7",
+      "release_sha256": "e07917f1ff1607108ec2ce145e98da0185150d1bed09975f4ba2d7e9dbae2b5d",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions",
+        "learning_nested_cpm_defaultabc"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory",
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 17
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/yeo7_within_v1/ANALYSIS_SPEC.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/yeo7_within_v1/ANALYSIS_SPEC.md",
+      "source_sha256": "ea7fcd6501a79b1c721f3704f187e0931cfc01a04092e2dd088b87c2ad8930cb",
+      "release_sha256": "ea7fcd6501a79b1c721f3704f187e0931cfc01a04092e2dd088b87c2ad8930cb",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/yeo7_within_v1/run_yeo7_cpm.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/cpm/yeo7_within_v1/run_yeo7_cpm.py",
+      "source_sha256": "9d7d5827c95065a979889a871e1f4b9835fe72758fad9a06bb66434928690b3d",
+      "release_sha256": "9d7d5827c95065a979889a871e1f4b9835fe72758fad9a06bb66434928690b3d",
+      "roles": [
+        "current_supplement_cpm_spatial_learning_and_intact_extensions",
+        "learning_network_specificity_extensions"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory",
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/network/run_learning_enrichment.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/network/run_learning_enrichment.py",
+      "source_sha256": "38c21015cdc7938a970c9825ffe9916734f57b9a9eca008d6ba7e419f9723e71",
+      "release_sha256": "4735a79097667cbe740d17058311a7730f218d1e5d03782c15cdf977cd09d7f3",
+      "roles": [
+        "Spatial-learning network screen and dependency-preserving category permutations"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 22
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/prepare_inputs.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/learning_network_v1/prepare_inputs.py",
+      "source_sha256": "1fb72fd02e2bea15c5fccc8c5c8017e11a54cf69df473df9bc95662f46a0cf36",
+      "release_sha256": "f73607a4f9945e9e58dcd28143cbec7eb4a53c35029a8b7737e46dd9a665bc3d",
+      "roles": [
+        "learning_nested_cpm_defaultabc"
+      ],
+      "statuses": [
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/live_methods_purpose_revision_20261005/robustness_coverage_audit/figure2_significance_revision/approved_plotting_source_before.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/live_methods_purpose_revision_20261005/robustness_coverage_audit/figure2_significance_revision/approved_plotting_source_before.py",
+      "source_sha256": "5d82d45b3391409e396c75401b3c97d17b52dbbd881b58ed135f1ba0d4dd1c16",
+      "release_sha256": "5d82d45b3391409e396c75401b3c97d17b52dbbd881b58ed135f1ba0d4dd1c16",
+      "roles": [
+        "Required source/readback dependency of manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/live_methods_purpose_revision_20261005/robustness_coverage_audit/figure2_significance_revision/regenerate_figure2_stars.py"
+      ],
+      "statuses": [
+        "helper_or_source_provenance_only"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/live_methods_purpose_revision_20261005/robustness_coverage_audit/figure2_significance_revision/regenerate_figure2_stars.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/live_methods_purpose_revision_20261005/robustness_coverage_audit/figure2_significance_revision/regenerate_figure2_stars.py",
+      "source_sha256": "5d477c937c1f2d471a20c5ae1815c52048c229977ee94dbbb53669edf8434ef0",
+      "release_sha256": "81cbda9e99d4f8d60bc247cf249c52a6e292bcd5f63a2f3f9927ab4335ef47d3",
+      "roles": [
+        "Figure 2 final authorized annotations from saved estimates"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 12
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/location_standardized_capture_v1/ANALYSIS_SPEC.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/location_standardized_capture_v1/ANALYSIS_SPEC.md",
+      "source_sha256": "901862d1167030bf8ac8b19ba83f4ef29c600e5ff361174adf62c84c33ee9ab1",
+      "release_sha256": "27f4e463b9da19c051a99dc76326264457f5063c1863a46cfa4727f95bb6c619",
+      "roles": [
+        "five_condition_location_standardized_capture_lmm",
+        "participant_50_50_capture_association_companion"
+      ],
+      "statuses": [
+        "active_current_main_table_and_supplement_source",
+        "active_retained_current_supplement_sensitivity"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/location_standardized_capture_v1/participant_companion/run_participant_companion.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/location_standardized_capture_v1/participant_companion/run_participant_companion.py",
+      "source_sha256": "41e2c9f1540332aa28f24f10296519935d135ef1235d0ac8ee5bac25d97bbe03",
+      "release_sha256": "57cded7398f3e3b38276bd200716e7ec51d7978d0da52b4ea7bff1bfc0bfbf30",
+      "roles": [
+        "participant_50_50_capture_association_companion"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_sensitivity"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/location_standardized_capture_v1/participant_companion/verify_participant_companion.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/location_standardized_capture_v1/participant_companion/verify_participant_companion.py",
+      "source_sha256": "7e3f574a668a2c11d09edcb131fceccecaebd03630d71e8cfb0cc96370610ffd",
+      "release_sha256": "717bb228a6477f277ea07cf20e5cad154f0dfdcb79774a95bb7aca37543128fb",
+      "roles": [
+        "participant_50_50_capture_association_companion"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_sensitivity"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 21
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/location_standardized_capture_v1/trial_model/run_trial_model.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/location_standardized_capture_v1/trial_model/run_trial_model.R",
+      "source_sha256": "68304610be6db37b1d5dd6ffa9f0e4940e38581cdb0071e458b0035dd433a206",
+      "release_sha256": "befd8b44ec89f805f3670a43f54baada4aae798e4dec85e76a82e95484fbb213",
+      "roles": [
+        "five_condition_location_standardized_capture_lmm"
+      ],
+      "statuses": [
+        "active_current_main_table_and_supplement_source"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_R_project_path"
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/location_standardized_capture_v1/trial_model/verify_trial_model.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/location_standardized_capture_v1/trial_model/verify_trial_model.R",
+      "source_sha256": "b734bd5d0c9315782fe762a580f5b60ef483ea822ee30a05d1da4a65adedcb67",
+      "release_sha256": "2b70d16d13ba3be1748f30b87ebedc4e278a6e88e586c075e37b939ca88cf2e6",
+      "roles": [
+        "five_condition_location_standardized_capture_lmm"
+      ],
+      "statuses": [
+        "active_current_main_table_and_supplement_source"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_R_project_path"
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/physical_dimension_comparison_v1/ANALYSIS_SPEC.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/physical_dimension_comparison_v1/ANALYSIS_SPEC.md",
+      "source_sha256": "3463ff6595994889a3eda5b649e46fa7919c609ca91ba74a992644b7540a4fb1",
+      "release_sha256": "3463ff6595994889a3eda5b649e46fa7919c609ca91ba74a992644b7540a4fb1",
+      "roles": [
+        "physical_dimension_participant_comparison",
+        "physical_dimension_saved_model_recoding"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_analysis",
+        "active_retained_current_supplement_analysis_no_refit"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/physical_dimension_comparison_v1/run_participant_comparison.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/physical_dimension_comparison_v1/run_participant_comparison.py",
+      "source_sha256": "cd1183591dd398d178b08f552c206470eb63e5ff418f7b8d2edfba2be3339680",
+      "release_sha256": "cd1183591dd398d178b08f552c206470eb63e5ff418f7b8d2edfba2be3339680",
+      "roles": [
+        "physical_dimension_participant_comparison"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_analysis"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/physical_dimension_comparison_v1/verify_participant_comparison.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/physical_dimension_comparison_v1/verify_participant_comparison.py",
+      "source_sha256": "d96c4819c02a5eb1efba09f0771cf0005de70bd0ef90e4852722ff1124866981",
+      "release_sha256": "d96c4819c02a5eb1efba09f0771cf0005de70bd0ef90e4852722ff1124866981",
+      "roles": [
+        "physical_dimension_participant_comparison"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_analysis"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/common399_handoff_adapter.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/common399_handoff_adapter.py",
+      "source_sha256": "8e8ad519de5be25f9bc71352f687a2aa1cb134814d0ce429ccc522abeaaff344",
+      "release_sha256": "f15281b3e84befa1206afd9d2de97bb6a12e3be6583e03f12b12f09df0e1178c",
+      "roles": [
+        "common399_adapter"
+      ],
+      "statuses": [
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 437
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/cpm/run_resolved_cpm.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/cpm/run_resolved_cpm.py",
+      "source_sha256": "8cca1132e3a7e11db3a2c1dfe10d55a0fbc035ec611783371a2d4325f9fc691b",
+      "release_sha256": "51003e11e2cddbf33ac17aa85872ad43a9dd82333683c3fc802bc2823cc3b61b",
+      "roles": [
+        "current_supplement_cpm_capture",
+        "capture_nested_cpm_defaultabc"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory",
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 13
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/cpm/verify_resolved_cpm.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/cpm/verify_resolved_cpm.py",
+      "source_sha256": "ebfa12bb0c9473700a002b328521d69415670bb4f44c580192663c4add609647",
+      "release_sha256": "ebfa12bb0c9473700a002b328521d69415670bb4f44c580192663c4add609647",
+      "roles": [
+        "current_supplement_cpm_capture",
+        "capture_nested_cpm_defaultabc",
+        "Figure S1 generator"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory",
+        "current_analysis_or_verifier",
+        "figure_generator"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/CORRECTION_FAMILY_PLAN.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/CORRECTION_FAMILY_PLAN.md",
+      "source_sha256": "2ededd286f98fffb08f61e539b339b0fb6fe730bc3aaa63d47ae148faeeaece7",
+      "release_sha256": "2ededd286f98fffb08f61e539b339b0fb6fe730bc3aaa63d47ae148faeeaece7",
+      "roles": [
+        "Declared participant association and dependent-comparison correction families"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/fit_new_predictor_mixed_models.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/fit_new_predictor_mixed_models.R",
+      "source_sha256": "d95be662b028c3adafef406e9e897f2f9548266ff899f4e24837d9f11033ecce",
+      "release_sha256": "d95be662b028c3adafef406e9e897f2f9548266ff899f4e24837d9f11033ecce",
+      "roles": [
+        "primary_default91_participant_association_and_joint_capture_lmm",
+        "required_source_helper"
+      ],
+      "statuses": [
+        "active_current_main_analysis",
+        "helper_not_standalone_current_analysis"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/recovery_integration_v2.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/recovery_integration_v2.py",
+      "source_sha256": "51c9f755e9ce97a7f0f57fdcc15ec42c9d26a358fb50c31d5bff1910dc1b2405",
+      "release_sha256": "51c9f755e9ce97a7f0f57fdcc15ec42c9d26a358fb50c31d5bff1910dc1b2405",
+      "roles": [
+        "primary_default91_participant_association_and_joint_capture_lmm"
+      ],
+      "statuses": [
+        "active_current_main_analysis"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/recovery_integration_v2_export_primary.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/recovery_integration_v2_export_primary.R",
+      "source_sha256": "14ab1f2f089dbc9ddd88948db4cec003c08ddf1e6f09ce90858cfc05f298828c",
+      "release_sha256": "14ab1f2f089dbc9ddd88948db4cec003c08ddf1e6f09ce90858cfc05f298828c",
+      "roles": [
+        "primary_default91_participant_association_and_joint_capture_lmm",
+        "required_current_producer_or_verifier"
+      ],
+      "statuses": [
+        "active_current_main_analysis",
+        "dependency"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/recovery_integration_v2_validate_rds_tables.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/recovery_integration_v2_validate_rds_tables.R",
+      "source_sha256": "8916511839af9eb837c4a877f13f828e12bd13247b9b287c7d4ba923167898d6",
+      "release_sha256": "8916511839af9eb837c4a877f13f828e12bd13247b9b287c7d4ba923167898d6",
+      "roles": [
+        "Selected RDS versus exported-table readback"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/run_dependent_inference.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/run_dependent_inference.py",
+      "source_sha256": "995fc72dbe85ca30f805276104d012e04ec3b339be06eb1c92de8eb4be5dba9c",
+      "release_sha256": "c4905461258dfa869dcc4ec6df882efb723561c5a931045c4b0bd3acdfdb73ba",
+      "roles": [
+        "primary_default91_participant_association_and_joint_capture_lmm",
+        "group_centered_participant_inference"
+      ],
+      "statuses": [
+        "active_current_main_analysis",
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 18
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/verify_dependent_inference.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/inference/verify_dependent_inference.py",
+      "source_sha256": "94f9e38f8acb49c905994dd7cbbd2ec4eb4e9c055f1fd6892e3ef2074cf7ed4a",
+      "release_sha256": "d498f463889b054af29873356bea57dd9222d2932135660d93d1edacd2f88127",
+      "roles": [
+        "primary_default91_participant_association_and_joint_capture_lmm",
+        "group_centered_participant_inference"
+      ],
+      "statuses": [
+        "active_current_main_analysis",
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 22
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/make_primary_figure_accepted_v2.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/make_primary_figure_accepted_v2.py",
+      "source_sha256": "e1d47ad4a1a2bfa35956c90c3364f3615734000a1e93512b3f934a5a5cb8b995",
+      "release_sha256": "e1d47ad4a1a2bfa35956c90c3364f3615734000a1e93512b3f934a5a5cb8b995",
+      "roles": [
+        "Figure 3: accepted current Default91 association vectors"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/model_diagnostics/primary_joint_sameformula_v1.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/model_diagnostics/primary_joint_sameformula_v1.R",
+      "source_sha256": "04fbecfa070c7077ea5b822277af2c172cab7b3dec9ca33d9568470bc6d15384",
+      "release_sha256": "04fbecfa070c7077ea5b822277af2c172cab7b3dec9ca33d9568470bc6d15384",
+      "roles": [
+        "Actual same-formula optimizer recovery producer for the selected primary joint fit"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/model_omnibus_reporting.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/model_omnibus_reporting.py",
+      "source_sha256": "26eb428e5403daf4dc4ed3b7b7d70bc569955bdd09bd75103371d6b4e8fb1df7",
+      "release_sha256": "26eb428e5403daf4dc4ed3b7b7d70bc569955bdd09bd75103371d6b4e8fb1df7",
+      "roles": [
+        "Current selected-model omnibus/readback exports"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/network_diagnostics/run_enrichment_permutation.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/network_diagnostics/run_enrichment_permutation.py",
+      "source_sha256": "e25e154616c962efdf376ee4eb7170c4e8b8e999f741f71747bb4fecacb0f673",
+      "release_sha256": "7c1726a28f58c9a314e860cdfbf97b8b9145d38794ccd72a4a28eda391fd4aff",
+      "roles": [
+        "Dependency-preserving network-pair/endpoint enrichment permutation implementation"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 30
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/network_diagnostics/run_enrichment_permutation_archived_v2.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/network_diagnostics/run_enrichment_permutation_archived_v2.py",
+      "source_sha256": "120ec9b8af5c51d36f13c2d4bc0492a27100d7b36b814106b895be99da68f657",
+      "release_sha256": "91cc49d454a0a17eaf88eb1c01a337bcc0c5d7e31fe7cb10151d99f6d1ec46a1",
+      "roles": [
+        "Same-algorithm permanent-null-archive replay; not an independent analysis"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/network_diagnostics/run_network_diagnostics.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/network_diagnostics/run_network_diagnostics.py",
+      "source_sha256": "f4abf3ccdbd31c874857f5be63511d945924a74032140978a1fb15fca8fc3d42",
+      "release_sha256": "c2f74359294dc144675d9d2d9c79d6d21ffbc471a556d35b30b64dbfb20011e0",
+      "roles": [
+        "capture_network_specificity"
+      ],
+      "statuses": [
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 27
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/network_diagnostics/verify_enrichment_permutation_archived_v2.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/network_diagnostics/verify_enrichment_permutation_archived_v2.py",
+      "source_sha256": "09da05f14693646e2c964a8580a068491d563d31d03be91a34996d664f97b46c",
+      "release_sha256": "ac1d158d2b5e45904690dd14fb27dca7c08252d1ba373f4066d3241bb752842c",
+      "roles": [
+        "Independent archived-null permutation readback"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 26
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/network_diagnostics/verify_network_diagnostics.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/network_diagnostics/verify_network_diagnostics.py",
+      "source_sha256": "2903ebe9e0b30169d2d81116b9f3f684f9f45342366126580f9748d7b9ad5786",
+      "release_sha256": "2903ebe9e0b30169d2d81116b9f3f684f9f45342366126580f9748d7b9ad5786",
+      "roles": [
+        "capture_network_specificity"
+      ],
+      "statuses": [
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/nuisance_variance_qc.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/nuisance_variance_qc.py",
+      "source_sha256": "bf8b1daf4c7b5bf19e59f335fab70b205c8c4549445fdf2f7b6ab06fa226d4fd",
+      "release_sha256": "bf8b1daf4c7b5bf19e59f335fab70b205c8c4549445fdf2f7b6ab06fa226d4fd",
+      "roles": [
+        "Reported nuisance explained-variance diagnostic"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/run_extraction_common_coverage.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/run_extraction_common_coverage.py",
+      "source_sha256": "c75938d61c78b93a354c56cc9dcd8bff4733b2fe1fb67b19ff733981220265c3",
+      "release_sha256": "cbbbe620e8f5b0709898d988deeb3dd718818bc36ecb2fea1ba1ec9059beb2e3",
+      "roles": [
+        "current_extraction_common399"
+      ],
+      "statuses": [
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 27
+        },
+        {
+          "kind": "configurable_external_path",
+          "line": 34
+        },
+        {
+          "kind": "configurable_external_path",
+          "line": 35
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/verify_extraction_common_coverage.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/verify_extraction_common_coverage.py",
+      "source_sha256": "bdac3e100fe1f814c4ed9155fb68e3ed6f0ac7db06d31079721e63dcb729fc23",
+      "release_sha256": "bdac3e100fe1f814c4ed9155fb68e3ed6f0ac7db06d31079721e63dcb729fc23",
+      "roles": [
+        "current_extraction_common399"
+      ],
+      "statuses": [
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/same_dimension_hierarchical_v1/ANALYSIS_SPEC.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/same_dimension_hierarchical_v1/ANALYSIS_SPEC.md",
+      "source_sha256": "3c79b93621505cf8f5f304458e8d6289f94bdf543eeb4fef4159aeb03afb1b99",
+      "release_sha256": "3c79b93621505cf8f5f304458e8d6289f94bdf543eeb4fef4159aeb03afb1b99",
+      "roles": [
+        "same_physical_dimension_hierarchical_contrasts"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_analysis_no_refit"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/same_dimension_hierarchical_v1/derive_same_dimension_hierarchical_contrasts.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/same_dimension_hierarchical_v1/derive_same_dimension_hierarchical_contrasts.R",
+      "source_sha256": "4f9d43a300443feece9669b8d994fe0b3f07649a2830c2d76b0c8d39ed70c3ac",
+      "release_sha256": "617288945f851c387400c11be04d0c89e0c3aaa14bbe3ccc3c043a50e7170a79",
+      "roles": [
+        "same_physical_dimension_hierarchical_contrasts"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_analysis_no_refit"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_R_project_path"
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/same_dimension_hierarchical_v1/verify_same_dimension_hierarchical_contrasts.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/same_dimension_hierarchical_v1/verify_same_dimension_hierarchical_contrasts.R",
+      "source_sha256": "d33536d4695c65a18f2f48afa8cf6f2a2e16de8eb4d6d0f8d779e8b4deb075bd",
+      "release_sha256": "4411d2306b6b8058997f34169f4f0e3235f1982fd4571835355a15ad4aec77b0",
+      "roles": [
+        "same_physical_dimension_hierarchical_contrasts"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_analysis_no_refit"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_R_project_path"
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/ANALYSIS_SPEC.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/ANALYSIS_SPEC.md",
+      "source_sha256": "0c68c5ab488fa25b2331faadccf80d848dba462ecad1e5960e395203287274fb",
+      "release_sha256": "0c68c5ab488fa25b2331faadccf80d848dba462ecad1e5960e395203287274fb",
+      "roles": [
+        "run_invariant_spatial_learning_lmm_archived_supplement",
+        "spatial_learning_participant_associations_and_reliability"
+      ],
+      "statuses": [
+        "archived_run_invariant_sensitivity_explicitly_retained_in_current_supplement",
+        "active_retained_current_supplement_analysis"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/participant_analysis/run_participant_analysis.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/participant_analysis/run_participant_analysis.py",
+      "source_sha256": "a80a1d0e1a28804718202e2b8965632dcc1454f160af7e3763703cd9da10de7b",
+      "release_sha256": "16fe4b9f59dd66581ea03d968c558261a2465f46fbf728846109971cd90a5cb8",
+      "roles": [
+        "spatial_learning_participant_associations_and_reliability",
+        "learning_participant_target"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_analysis",
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/participant_analysis/verify_participant_analysis.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/participant_analysis/verify_participant_analysis.py",
+      "source_sha256": "6d2a1e25a94501a81fa732fca323b83c8e13081917f874f21767396719c1044a",
+      "release_sha256": "98c6d71ceba998eacea55a3d7175d4e37fbbf8dd916ac4c0683f400c9a85849d",
+      "roles": [
+        "spatial_learning_participant_associations_and_reliability",
+        "learning_participant_target"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_analysis",
+        "current_analysis_or_verifier"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/run_moderation_sensitivity_20261006T183347Z/ANALYSIS_SPEC.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/run_moderation_sensitivity_20261006T183347Z/ANALYSIS_SPEC.md",
+      "source_sha256": "2e30c44404ff2858c162054646fb5e57bf246ba64acfdcf78e2f371abc39e091",
+      "release_sha256": "2e30c44404ff2858c162054646fb5e57bf246ba64acfdcf78e2f371abc39e091",
+      "roles": [
+        "run_moderation_sensitivity"
+      ],
+      "statuses": [
+        "active_current_principal_spatial_learning_model_with_archived_filename"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/run_moderation_sensitivity_20261006T183347Z/fit_run_moderation.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/run_moderation_sensitivity_20261006T183347Z/fit_run_moderation.R",
+      "source_sha256": "fc7943fc4f92d04f0e3b7cbe1ea9cb05b55b8fe4f01c6b50df7dc590518af2f9",
+      "release_sha256": "136cf888c2efd5fe12c47a1ed16e9bfac25bc88b2639e56106f8e371170fa42a",
+      "roles": [
+        "run_moderation_sensitivity"
+      ],
+      "statuses": [
+        "active_current_principal_spatial_learning_model_with_archived_filename"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_R_project_path"
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/run_moderation_sensitivity_20261006T183347Z/verify_run_moderation.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/run_moderation_sensitivity_20261006T183347Z/verify_run_moderation.R",
+      "source_sha256": "cbc8518fdbbe1b0ca0301628f69040af9150bd65adf29e1c8547428506a895ea",
+      "release_sha256": "cbc8518fdbbe1b0ca0301628f69040af9150bd65adf29e1c8547428506a895ea",
+      "roles": [
+        "run_moderation_sensitivity"
+      ],
+      "statuses": [
+        "active_current_principal_spatial_learning_model_with_archived_filename"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/trial_model/run_trial_model.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/trial_model/run_trial_model.R",
+      "source_sha256": "3d67161d5ff315167a3e0b8c7168ee886b6bfd3d6a3ac2c673b76b028c2a58a7",
+      "release_sha256": "d3ef685744b7c506e90c1bb8dc10fb8429234f8c727495ee80fed56f5d11cc48",
+      "roles": [
+        "run_invariant_spatial_learning_lmm_archived_supplement"
+      ],
+      "statuses": [
+        "archived_run_invariant_sensitivity_explicitly_retained_in_current_supplement"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_R_project_path"
+        },
+        {
+          "kind": "configurable_R_project_path"
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/trial_model/verify_trial_model.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/spatial_learning_dmn_v1/trial_model/verify_trial_model.R",
+      "source_sha256": "9f86fc9086a7c4fe8074f2712f6d8b41adafd75cf6afc6fdbb4a1968bffc938e",
+      "release_sha256": "85b5378a4d154d914aadf0a94177244827ab518ad0523be95f6381e96c40596e",
+      "roles": [
+        "run_invariant_spatial_learning_lmm_archived_supplement"
+      ],
+      "statuses": [
+        "archived_run_invariant_sensitivity_explicitly_retained_in_current_supplement"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_R_project_path"
+        },
+        {
+          "kind": "configurable_R_project_path"
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/ANALYSIS_SPEC.md",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/ANALYSIS_SPEC.md",
+      "source_sha256": "eb88e01ecace8344ca5552d36dc0041086b4469a9cd69149e85eb33bbd7929e4",
+      "release_sha256": "1c82eb1e2f72bbc99e216f8e6ce52e8744aa44c51f2e9e39007c23ba3dcc190c",
+      "roles": [
+        "raw_behavioral_event_and_training_derivation",
+        "frozen_n33_behavior_source_contract"
+      ],
+      "statuses": [
+        "active_prerequisite_code_for_private_inputs_not_a_public_data_artifact",
+        "active_dependency_not_a_public_data_artifact"
+      ],
+      "portability_changes": []
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/artifacts/fit_models.R",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/artifacts/fit_models.R",
+      "source_sha256": "32b2c893fe47be1c871ff635616349a697648042d30ce68717e5c5d55ee89f56",
+      "release_sha256": "40d742253acc94b0bf3a740c2adab7413c3eaa4be1279fafe1b67b242422b60b",
+      "roles": [
+        "Required source/readback dependency of manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/run_reanalysis.py"
+      ],
+      "statuses": [
+        "helper_or_source_provenance_only"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_R_project_path"
+        },
+        {
+          "kind": "configurable_R_project_path"
+        },
+        {
+          "kind": "configurable_R_project_path"
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/cpm/run_cpm_authorized_nested.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/cpm/run_cpm_authorized_nested.py",
+      "source_sha256": "e6359a2f739105d7ee9b42d289ba24f2c51dff9de01a135a2ebfd157ebc9a72a",
+      "release_sha256": "63c158246670c56aa8f03e87c4645d8860969691b13e6fdfbf31762156aa904d",
+      "roles": [
+        "current_supplement_cpm_capture",
+        "required_source_helper"
+      ],
+      "statuses": [
+        "active_retained_current_supplement_exploratory",
+        "helper_not_standalone_current_analysis"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 34
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/prepare_data.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/prepare_data.py",
+      "source_sha256": "487986c98e98dabcd3aa4ca81815530b413b9eb63655bf3fd6475389919068ad",
+      "release_sha256": "685fa43cc88a094166fce6220edf72b89d29e16fe4b4145bd0b2bc53537c4d92",
+      "roles": [
+        "raw_behavioral_event_and_training_derivation",
+        "frozen_n33_behavior_source_contract"
+      ],
+      "statuses": [
+        "active_prerequisite_code_for_private_inputs_not_a_public_data_artifact",
+        "active_dependency_not_a_public_data_artifact"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/run_reanalysis.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/run_reanalysis.py",
+      "source_sha256": "63401692920a56a495ab5bf0ed7f92b88d60bbb18d81681c045723ccda29b4ae",
+      "release_sha256": "20ceadad34c0dbd212fecf66eec522ef3b9d478eef58d066a8a3e77aedceff7a",
+      "roles": [
+        "raw_behavioral_event_and_training_derivation"
+      ],
+      "statuses": [
+        "active_prerequisite_code_for_private_inputs_not_a_public_data_artifact"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 19
+        }
+      ]
+    },
+    {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/behavioral-audit/run_behavioral_audit.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/behavioral-audit/run_behavioral_audit.py",
+      "source_sha256": "b9672d7ad9ec4eb264bbe775161aa5803b7e1f091d3581bbc0d1e8ea13a5e04e",
+      "release_sha256": "3b0523fccb0c0ea4c72918c8fc02665cb2773105bc922c1287ff67e6024bf090",
+      "roles": [
+        "raw_behavioral_event_and_training_derivation"
+      ],
+      "statuses": [
+        "active_prerequisite_code_for_private_inputs_not_a_public_data_artifact"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 35
+        }
+      ]
+    }
+  ]
+}

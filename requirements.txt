@@ -1,0 +1,12 @@
+# Versions present during source-release checks (Python 3.13.11).
+numpy==2.4.2
+pandas==3.0.0
+scipy==1.17.0
+statsmodels==0.14.6
+nibabel==5.3.3
+nilearn==0.13.1
+matplotlib==3.10.8
+Pillow==12.1.0
+python-docx==1.2.0
+# pingouin is needed only if executing the original behavioral-provenance module.
+pingouin>=0.5

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying study and the source dataset when using these analysis scripts."
+title: "DMN, attentional capture and spatial learning: analysis code"
+type: software
+authors:
+  - name: "MSense Lab"
+repository-code: "https://github.com/msenselab/DMN-attentional-capture-and-spatial-learning"
+url: "https://github.com/msenselab/DMN-attentional-capture-and-spatial-learning"
+abstract: "Code-only release of task-fMRI analyses relating default-mode-network connectivity to attentional capture and spatial learning; empirical inputs are provided separately."

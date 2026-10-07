@@ -1,0 +1,15 @@
+# Author-requested same-physical-dimension hierarchical contrasts
+
+Requested after review of today's analyses; exploratory post hoc extensions, not prespecified original tests. Reuse the verified final_selected_model.rds under location_standardized_capture_v1/trial_model without refitting or changing the sample, random structure, nuisance basis or neural standardization. Inspect original model verification before accepting derived output. N=33 (SS16/DS17), 10,995 correct 200–3000-ms trials. No additional exclusions. Full model RT100 ~ condition * X * D + condition:run2 + (1 + BF + BR + UF + UR | subject), correlated random intercept and four slopes, REML/lmerTest Satterthwaite. D=0 SS/1 DS. X=group-centered DMN / common pooled SD. Five conditions Absent,BF,BR,UF,UR.
+
+Equal-region capture costs relative to absent: BF/BR each .5 for B50; UF/UR each .5 for U50. Average two runs equally. Behavioral costs evaluated at X=0 (each group's mean connectivity). DMN coupling is the X derivative of the same cost, per common SD. Mapping: SS orientation=B50, SS color=U50; DS orientation=U50, DS color=B50.
+
+Extract four physical-dimension by group cost cells and four coupling cells with ordinary pointwise 95% Satterthwaite t CIs. Group differences SS−DS for orientation and DS−SS for color put the regularity-carrying group first in each case. These are cross-group comparisons within a physical dimension, not isolated causal regularity effects: exposure and group/task architecture differ.
+
+Omnibus-first: joint two-df test of the two within-physical-dimension group differences, separately for RT costs and DMN coupling. Holm-2 across the two omnibus tests. Follow-ups are two behavioral group contrasts in their own Holm-2 family, and two DMN-coupling group contrasts in a separate Holm-2 family; after an omnibus null follow-ups remain exploratory descriptions, not support for a group-specific mechanism. Preserve all previous contrast families, including Holm-3 for DS−SS biased-minus-unbiased coupling moderation; do not replace their adjustments.
+
+Verification: model.matrix-derived contrast vectors and lmerTest contest1D/contestMD in generator; independent algebraic vectors and beta/vcov replay in verifier, verify estimates/SE/CIs/t/p and omnibus statistics/rank. Preserve input SHA256s and copy no stale model values into narrative.
+
+# Four-network learning sensitivity
+
+Interpret requested four summaries as within-network Default/DMN, DorsAttn/DAN, SalVentAttn/VAN-salience, Cont/control. Use frozen learning_network_pooled_groups_v1/analysis/network_associations_all84.csv: select exactly four within-network rows for each of pooled_group_adjusted, SS and DS. Apply Holm-4 per scope, plus global Holm-12 sensitivity. Do not change original Holm-28 or Holm-84 values. This post hoc restricted association family is neither all ten within/between pairs among four networks nor a direct DMN-superiority test. Keep selection after broad-screen inspection explicit. No CPM, edge or contrast reanalysis here.
