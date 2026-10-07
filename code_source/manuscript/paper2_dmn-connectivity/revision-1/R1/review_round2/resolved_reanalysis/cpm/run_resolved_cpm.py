@@ -92,7 +92,8 @@ def self_test():
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--self-test',action='store_true');ap.add_argument('--scores',type=Path,default=RES/'extraction_common_coverage/participant_scores_resolved.csv');ap.add_argument('--matrices',type=Path,default=RES/'extraction_common_coverage/primary_participant_matrices.npy');ap.add_argument('--matrix-subjects',type=Path,default=RES/'extraction_common_coverage/primary_matrix_subjects.csv');ap.add_argument('--n-perm',type=int,default=10000);ap.add_argument('--batch-size',type=int,default=50);ap.add_argument('--seed',type=int,default=20261001)
-    ap.add_argument('--parcel-metadata',type=Path,default=RES/'extraction_common_coverage/physical_yeo7_400_parcels.csv')
+    ap.add_argument('--parcel-metadata',type=Path,default=RES/'common399_analysis_ready/physical_yeo7_common399_parcels.csv')
+    ap.add_argument('--check-inputs-only',action='store_true',help='Validate actual current inputs and physical common399 geometry; do not run empirical CPM')
     args=ap.parse_args()
     if args.self_test:self_test();return
     assert args.n_perm==10000,'Empirical report requires all10k permutations'
@@ -115,6 +116,8 @@ def main():
     assert np.allclose(conn,conn.swapaxes(1,2),atol=1e-12) and np.allclose(np.diagonal(conn,axis1=1,axis2=2),0)
     union,fid,cross,cov=mapping(parcels.native_label.to_numpy());cross.to_csv(HERE/'physical_yeo7_to_17_crosswalk.csv',index=False)
     (HERE/'physical_crosswalk_verification.json').write_text(json.dumps(cov,indent=2)+'\n')
+    if args.check_inputs_only:
+        print(json.dumps({'status':'VERIFIED_COMMON399_INPUTS_ONLY_NO_EMPIRICAL_RUN','n_subjects':len(scores),'n_trials':len(trial),'crosswalk':cov},indent=2));return
     ti,tj=np.triu_indices(399,1);X=np.array(conn[:,ti,tj][:,union]);groups=scores.group.to_numpy(str);y=scores.biased_capture.to_numpy(float)
     folds=legacy.prepare_folds(X,groups)
     tc=stats.t.ppf(1-.01/2,30);rcrit=float(tc/np.sqrt(tc*tc+30))

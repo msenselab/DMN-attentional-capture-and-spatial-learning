@@ -647,6 +647,32 @@
       "portability_changes": []
     },
     {
+      "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/audit_all66_coverage.py",
+      "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/audit_all66_coverage.py",
+      "source_sha256": "e245b3d0aedd9c7c9c3eb09bcf71ce0a2f39206966e5a703290334142ed45a7b",
+      "release_sha256": "01b3980ed022fc9fce7874cdb65d6d56cf78aad98d3475fb6d4cf43566bb557b",
+      "roles": [
+        "Geometry-only all66 participant-run parcel-coverage audit producer; no outcome inference"
+      ],
+      "statuses": [
+        "current_producer_or_required_provenance"
+      ],
+      "portability_changes": [
+        {
+          "kind": "configurable_external_path",
+          "line": 9
+        },
+        {
+          "kind": "configurable_external_path",
+          "line": 10
+        },
+        {
+          "kind": "configurable_external_path",
+          "line": 11
+        }
+      ]
+    },
+    {
       "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/common399_handoff_adapter.py",
       "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/common399_handoff_adapter.py",
       "source_sha256": "8e8ad519de5be25f9bc71352f687a2aa1cb134814d0ce429ccc522abeaaff344",
@@ -668,7 +694,7 @@
       "path": "code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/cpm/run_resolved_cpm.py",
       "study_relative_path": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/cpm/run_resolved_cpm.py",
       "source_sha256": "8cca1132e3a7e11db3a2c1dfe10d55a0fbc035ec611783371a2d4325f9fc691b",
-      "release_sha256": "51003e11e2cddbf33ac17aa85872ad43a9dd82333683c3fc802bc2823cc3b61b",
+      "release_sha256": "7497b0b126858ad860b9c1336a25a57c37d71c83e941557642a1a83ff2da1c16",
       "roles": [
         "current_supplement_cpm_capture",
         "capture_nested_cpm_defaultabc"
@@ -681,6 +707,16 @@
         {
           "kind": "configurable_external_path",
           "line": 13
+        },
+        {
+          "kind": "current_common399_adapter_metadata_default",
+          "previous": "extraction_common_coverage/physical_yeo7_400_parcels.csv",
+          "current": "common399_analysis_ready/physical_yeo7_common399_parcels.csv",
+          "numerical_algorithm_changed": false
+        },
+        {
+          "kind": "preflight_input_validation_only_cli",
+          "full_CPM_estimation_and_inference_unchanged": true
         }
       ]
     },

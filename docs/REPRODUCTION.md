@@ -28,6 +28,10 @@ The source-data DOI is https://doi.org/10.12751/g-node.zfrem9. The following are
 
 Paths in each script are relative to `$W` or its copied source directory. The original revision-prefix is `manuscript/paper2_dmn-connectivity/revision-1/`; current analysis families are primarily under its `R1/review_round2/`. Consult the actual read statements and `analysis_catalog.json` for complete per-entry input paths. Input JSON that contains absolute paths must be generated/bound to the new workspace through the relevant producer/adapter; copied private-machine checkpoint metadata cannot simply be treated as a fresh run.
 
+## Required external contracts and common399 route
+
+See [INPUT_CONTRACTS.md](INPUT_CONTRACTS.md) for the exact two external frozen JSON paths, the retained all66-mask coverage-QC producer, and the current common399 adapter → CPM metadata route. These are required external inputs, not bundled or fabricated scientific configuration. The CPM `--check-inputs-only` mode validates that real source chain without permutations.
+
 ## Execution order and distinct families
 
 1. **Behavioral linkage and tables:** `behavior_link_correctness` joins scanner events to MATLAB correctness; `behavior_prepare_n33` produces the frozen correct/finite 200–3000-ms N35/N33 trial tables. `behavior_n35_refresh` fits the separate training/scanner behavioral models and generates their tables. It does not supply the current neural predictor.

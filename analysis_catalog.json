@@ -190,6 +190,13 @@
       "status": "active_retained_current_supplement_analysis"
     },
     {
+      "name": "connectivity_coverage_audit",
+      "source": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/audit_all66_coverage.py",
+      "language": "python",
+      "role": "Geometry-only all66 participant-run parcel-coverage audit producer; no outcome inference",
+      "status": "current_producer_or_required_provenance"
+    },
+    {
       "name": "connectivity_handoff",
       "source": "manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/common399_handoff_adapter.py",
       "language": "python",

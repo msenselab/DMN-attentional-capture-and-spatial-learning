@@ -1,6 +1,6 @@
 # Source and execution index
 
-80 source/specification files; 57 catalogued entry points. Code files are classified by retained use, not merely filename date.
+81 source/specification files; 58 catalogued entry points. Code files are classified by retained use, not merely filename date.
 
 This index does not grant data-redistribution rights or certify all external inputs are available. See REPRODUCTION.md and VALIDATION.md.
 
@@ -344,6 +344,12 @@ This index does not grant data-redistribution rights or certify all external inp
 - Source: [`manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/run_reanalysis.py`](../code_source/manuscript/paper2_dmn-connectivity/revision-1/attached-v3-correct-rt/run_reanalysis.py)
 - Role: raw_behavioral_event_and_training_derivation
 - Status: active_prerequisite_code_for_private_inputs_not_a_public_data_artifact
+- Language: python
+
+## `connectivity_coverage_audit`
+- Source: [`audit_all66_coverage.py`](../code_source/manuscript/paper2_dmn-connectivity/revision-1/R1/review_round2/resolved_reanalysis/audit_all66_coverage.py)
+- Role: actual geometry-only coverage-QC producer for the 66 participant/run masks; requires authorized external inputs and does not inspect outcome associations.
+- Status: current prerequisite; participant/run provenance outputs remain outside Git.
 - Language: python
 
 ## Implementation/provenance-only files

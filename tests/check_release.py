@@ -26,6 +26,14 @@ def main():
  for p in [ROOT/'run_analysis.py',Path(__file__)]:compile(p.read_text(),str(p),'exec')
  catalog=json.loads((ROOT/'analysis_catalog.json').read_text())['entry_points'];assert len({e['name'] for e in catalog})==len(catalog)
  for e in catalog:assert 'code_source/'+e['source'] in expected
+ by_name={e['name']:e for e in catalog};assert 'connectivity_coverage_audit' in by_name
+ cpmtext=(ROOT/'code_source'/by_name['nested_cpm_capture']['source']).read_text()
+ assert "default=RES/'common399_analysis_ready/physical_yeo7_common399_parcels.csv'" in cpmtext
+ assert "default=RES/'extraction_common_coverage/physical_yeo7_400_parcels.csv'" not in cpmtext
+ assert '--check-inputs-only' in cpmtext
+ inputsdoc=(ROOT/'docs/INPUT_CONTRACTS.md').read_text()
+ assert all(x in inputsdoc for x in ['analysis_contract.json','analysis_contract_coverage_amendment.json','coverage_qc/coverage_audit.json'])
+ assert not any(e['study_relative_path'].endswith('finish_extraction_handoff.py') for e in files)
  # Actual released implementation versus the independent scalar training-fold
  # implementation, using labelled synthetic random arrays only.
  import numpy as np
